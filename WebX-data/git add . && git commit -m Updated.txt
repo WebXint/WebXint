@@ -1,5 +1,0 @@
-git add . && git commit -m "Updated project" && git push origin main
-git add . && git commit -m "Fixed navbar and added contact page" && git push origin main
-
-
-chole 1k rajma 1 1 cahneki dal, 1 kilo mong ki dal , 1k tuver, 500 chileke vali dal, aata , jira power and dhaniya powerder , gira a, pyas aalu 
