@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Development Demo | WebX-Int.in</title>
+    <meta name="description"
+        content="WebX-Int.in offers professional website development demos. Explore responsive website templates and live previews to get inspired for your next project." />
+    <meta name="keywords"
+        content="web development, responsive website, website demo, WebX-Int.in, android development, ios development, AI projects, ML projects, website design" />
+    <meta property="og:title" content="Web Development Demo | WebX-Int.in" />
+    <meta property="og:description"
+        content="Explore our live web development demos and templates. WebX-Int.in develops websites, android & ios apps, and AI/ML projects." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://webx-int.in/" />
+    <meta property="og:image" content="https://source.unsplash.com/1600x900/?website,development" />
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">WebX-Int.in</div>
+            <div class="menu-toggle" id="menu-toggle">
+                <span></span><span></span><span></span>
+            </div>
+            <nav class="main-nav" id="main-nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#demos">Demos</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Welcome to WebX-Int.in</h1>
+            <p>Professional Web Development, Android/iOS & AI/ML Projects</p>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="video-section container" id="demos">
+        <h2>Responsive Website Demos</h2>
+        <p class="video-description">Explore live previews of modern websites we develop. Perfect for your next project.
+        </p>
+
+        <div class="video-grid">
+            <!-- Repeat for 10 videos -->
+            <div class="video-card">
+                <video class="video-thumb" src="video/original-0ce6e956ef6bd4c129567a1df7603ee9.mp4" muted
+                    preload="metadata"></video>
+                <h4>Business Website</h4>
+                <p>Clean and professional corporate site design.</p>
+            </div>
+            <div class="video-card">
+                <video class="video-thumb" src="video/original-0ce6e956ef6bd4c129567a1df7603ee9.mp4" muted
+                    preload="metadata"></video>
+                <h4>E-commerce Store</h4>
+                <p>Modern shopping platform with secure checkout.</p>
+            </div>
+            <div class="video-card">
+                <video class="video-thumb" src="video/original-0ce6e956ef6bd4c129567a1df7603ee9.mp4" muted
+                    preload="metadata"></video>
+                <h4>Portfolio Website</h4>
+                <p>Showcase your work with style and responsiveness.</p>
+            </div>
+            <div class="video-card">
+                <video class="video-thumb" src="video/original-0ce6e956ef6bd4c129567a1df7603ee9.mp4" muted
+                    preload="metadata"></video>
+                <h4>Blog & Magazine</h4>
+                <p>Elegant layout for articles and posts.</p>
+            </div>
+            <div class="video-card">
+                <video class="video-thumb" src="video/original-0ce6e956ef6bd4c129567a1df7603ee9.mp4" muted
+                    preload="metadata"></video>
+                <h4>Landing Page</h4>
+                <p>High-converting, single-page product site.</p>
+            </div>
+            <div class="video-card">
+                <video class="video-thumb" src="video/original-0ce6e956ef6bd4c129567a1df7603ee9.mp4" muted
+                    preload="metadata"></video>
+                <h4>Real Estate Tour</h4>
+                <p>Highlight properties with smooth pans.</p>
+            </div>
+            <div class="video-card">
+                <video class="video-thumb" src="video/original-0ce6e956ef6bd4c129567a1df7603ee9.mp4" muted
+                    preload="metadata"></video>
+                <h4>Social Media Ad</h4>
+                <p>Short, catchy edits for Instagram/TikTok.</p>
+            </div>
+            <div class="video-card">
+                <video class="video-thumb" src="video/original-0ce6e956ef6bd4c129567a1df7603ee9.mp4" muted
+                    preload="metadata"></video>
+                <h4>Wedding Highlights</h4>
+                <p>Romantic music and color grading.</p>
+            </div>
+            <div class="video-card">
+                <video class="video-thumb" src="video/original-0ce6e956ef6bd4c129567a1df7603ee9.mp4" muted
+                    preload="metadata"></video>
+                <h4>Explainer Video</h4>
+                <p>Clear motion graphics to explain ideas.</p>
+            </div>
+            <div class="video-card">
+                <video class="video-thumb" src="video/original-0ce6e956ef6bd4c129567a1df7603ee9.mp4" muted
+                    preload="metadata"></video>
+                <h4>Fashion Reel</h4>
+                <p>Stylish cuts and fast-paced edits.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>Website demo for client by <a href="https://webx-int.in" target="_blank">WebX-Int.in</a></p>
+    </footer>
+
+    <!-- Popup -->
+    <div class="video-popup" id="popup">
+        <video id="popupVideo" controls autoplay></video>
+    </div>
+
+    <script>
+        const toggle = document.getElementById('menu-toggle');
+        const nav = document.getElementById('main-nav');
+        toggle.addEventListener('click', () => {
+            nav.classList.toggle('show');
+            toggle.classList.toggle('active');
+        });
+
+        const popup = document.getElementById('popup');
+        const popupVideo = document.getElementById('popupVideo');
+        const thumbs = document.querySelectorAll('.video-thumb');
+        thumbs.forEach(thumb => {
+            thumb.addEventListener('click', () => {
+                popup.style.display = 'flex';
+                popupVideo.src = thumb.src;
+                popupVideo.play();
+            });
+        });
+        popup.addEventListener('click', (e) => {
+            if (e.target === popup) {
+                popup.style.display = 'none';
+                popupVideo.pause();
+                popupVideo.src = "";
+            }
+        });
+    </script>
+</body>
+
+</html>

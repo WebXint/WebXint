@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebX-Int: AI, Android, Graphic & IT Services Demo</title>
+    <link rel="stylesheet" href="styles.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@300;400;500&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">WebX-Int.in</div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#demos">Demos</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="text">
+                <h1>WebX-Int: Innovating Digital Solutions for Your Business.</h1>
+                <p>From cutting-edge AI/ML to robust Android apps, stunning graphics, and reliable IT services – we
+                    bring your vision to life with expertise and precision.</p>
+                <a href="#demos" class="btn primary-btn">View Our Demos <span class="arrow">→</span></a>
+            </div>
+            <div class="image">
+                <img src="https://images.unsplash.com/photo-1556761175-4b46a57b22d2?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Digital solutions concept" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <section class="services-section" id="services">
+        <div class="container">
+            <h2 class="section-heading">Our Expertise</h2>
+            <div class="services-grid">
+                <a href="#web-dev-demo" class="service-card">
+                    <h3>Web Development</h3>
+                    <p>Crafting modern, responsive, and high-performance websites that elevate your online presence.</p>
+                </a>
+                <a href="#ai-ml-demo" class="service-card">
+                    <h3>AI/ML Development</h3>
+                    <p>Leveraging artificial intelligence and machine learning to create intelligent solutions and
+                        automate processes.</p>
+                </a>
+                <a href="#android-app-demo" class="service-card">
+                    <h3>Android App Development</h3>
+                    <p>Building high-performance, user-friendly mobile applications tailored to your business needs.</p>
+                </a>
+                <a href="#graphic-design-demo" class="service-card">
+                    <h3>Graphic Design</h3>
+                    <p>Crafting stunning visuals, logos, and brand identities that make a lasting impression.</p>
+                </a>
+                <a href="#it-services-demo" class="service-card">
+                    <h3>IT Services & Support</h3>
+                    <p>Providing comprehensive IT solutions, infrastructure management, and technical support.</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="demos-section" id="demos">
+        <div class="container">
+            <h2 class="section-heading">Our Work in Action: Demos</h2>
+
+            <div class="demo-category" id="web-dev-demo">
+                <h3>Web Development Demo: Responsive Business Website</h3>
+                <div class="demo-content-row">
+                    <div class="video-box">
+                        <iframe width="100%" height="315" src="https://youtu.be/-m-rAECbJRE?si=sSQi7I3QH00WutwI"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen loading="lazy"></iframe>
+                    </div>
+                    <div class="demo-description">
+                        <h4>Stunning & Functional Web Experiences</h4>
+                        <p>Explore our expertise in crafting modern, responsive, and high-performance websites. This
+                            demo showcases a dynamic business portal with interactive features.</p>
+                        <a href="#" class="btn secondary-btn">View Web Projects</a>
+                    </div>
+                </div>
+                <div class="demo-images-grid">
+                    <img src="https://images.unsplash.com/photo-1549608182-5509d023b379?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Web Development Layout" loading="lazy">
+                    <img src="https://images.unsplash.com/photo-1627398285526-9d3e8e19c968?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Responsive Web Design" loading="lazy">
+                    <img src="https://images.unsplash.com/photo-1542744095-291d1f67b5b7?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Code Snippet Web" loading="lazy">
+                    <img src="https://images.unsplash.com/photo-1596541223130-f2bc32959bb4?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Website Mockup" loading="lazy">
+                </div>
+            </div>
+
+            <div class="demo-category reverse" id="android-app-demo">
+                <h3>Android App Demo: E-commerce Mobile Store</h3>
+                <div class="demo-content-row reverse">
+                    <div class="video-box">
+                        <iframe width="100%" height="315" src="https://youtu.be/-m-rAECbJRE?si=sSQi7I3QH00WutwI"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen loading="lazy"></iframe>
+                    </div>
+                    <div class="demo-description">
+                        <h4>Intuitive Mobile Shopping</h4>
+                        <p>See our beautifully designed Android e-commerce application in action, showcasing smooth
+                            navigation, secure payments, and personalized user experience.</p>
+                        <a href="#" class="btn secondary-btn">View App Features</a>
+                    </div>
+                </div>
+                <div class="demo-images-grid">
+                    <img src="https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Android App UI" loading="lazy">
+                    <img src="https://images.unsplash.com/photo-1522199757657-f9d25126f59c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Mobile App Screens" loading="lazy">
+                    <img src="https://images.unsplash.com/photo-1529188448897-405527181f7d?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Shopping Cart" loading="lazy">
+                    <img src="https://images.unsplash.com/photo-1610484732688-ce98b8c8d844?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="App Notifications" loading="lazy">
+                </div>
+            </div>
+
+            <div class="demo-category" id="graphic-design-demo">
+                <h3>Graphic Design Demo: Brand Identity Showcase</h3>
+                <div class="demo-content-row">
+                    <div class="video-box">
+                        <iframe width="100%" height="315" src="https://youtu.be/-m-rAECbJRE?si=sSQi7I3QH00WutwI"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen loading="lazy"></iframe>
+                    </div>
+                    <div class="demo-description">
+                        <h4>Creative Visual Branding</h4>
+                        <p>Explore our design process from concept to creation, showcasing logo development, brand
+                            guidelines, and marketing collateral for a fictional startup.</p>
+                        <a href="#" class="btn secondary-btn">See Our Portfolio</a>
+                    </div>
+                </div>
+                <div class="demo-images-grid">
+                    <img src="https://images.unsplash.com/photo-1618005198919-cdbc9f61b17b?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Logo Design" loading="lazy">
+                    <img src="https://images.unsplash.com/photo-1549490349-8643362c397d?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Branding Mockup" loading="lazy">
+                    <img src="https://images.unsplash.com/photo-1617502424823-380d603a115c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Graphic Elements" loading="lazy">
+                    <img src="https://images.unsplash.com/photo-1587820641042-aa8c4c770c67?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Marketing Design" loading="lazy">
+                </div>
+            </div>
+
+            <div class="demo-category reverse" id="it-services-demo">
+                <h3>IT Services Demo: Cloud Infrastructure Setup</h3>
+                <div class="demo-content-row reverse">
+                    <div class="video-box">
+                        <iframe width="100%" height="315" src="https://youtu.be/-m-rAECbJRE?si=sSQi7I3QH00WutwI"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen loading="lazy"></iframe>
+                    </div>
+                    <div class="demo-description">
+                        <h4>Seamless Cloud Integration</h4>
+                        <p>A walk-through of our efficient cloud migration and setup process, highlighting security
+                            measures, scalability, and performance optimization for businesses.</p>
+                        <a href="#" class="btn secondary-btn">Our IT Solutions</a>
+                    </div>
+                </div>
+                <div class="demo-images-grid">
+                    <img src="https://images.unsplash.com/photo-1600861113645-a9607149f1a0?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Cloud Servers" loading="lazy">
+                    <img src="https://images.unsplash.com/photo-1544197152-d27e02930263?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Network Security" loading="lazy">
+                    <img src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Data Management" loading="lazy">
+                    <img src="https://images.unsplash.com/photo-1582213797699-b1318ac28c2c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="IT Support" loading="lazy">
+                </div>
+            </div>
+
+            <div class="demo-category" id="ai-ml-demo">
+                <h3>AI/ML Project Demo: Smart Data Analyzer</h3>
+                <div class="demo-content-row">
+                    <div class="video-box">
+                        <iframe width="100%" height="315" src="https://youtu.be/-m-rAECbJRE?si=sSQi7I3QH00WutwI"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen loading="lazy"></iframe>
+                    </div>
+                    <div class="demo-description">
+                        <h4>Intelligent Data Insights</h4>
+                        <p>Watch how our AI-powered tool processes complex datasets, identifies trends, and provides
+                            actionable insights for informed decision-making. Ideal for business analytics.</p>
+                        <a href="#" class="btn secondary-btn">Explore Case Study</a>
+                    </div>
+                </div>
+                <div class="demo-images-grid">
+                    <img src="https://images.unsplash.com/photo-1620712943206-c9597793d406?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="AI Dashboard" loading="lazy">
+                    <img src="https://images.unsplash.com/photo-1610484732688-ce98b8c8d844?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="ML Algorithms" loading="lazy">
+                    <img src="https://images.unsplash.com/photo-1551288259-2342c943808b?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Data Analysis" loading="lazy">
+                    <img src="https://images.unsplash.com/photo-1620712943206-c9597793d406?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="AI Interface" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer" id="contact">
+        <div class="container">
+            <div class="footer-col">
+                <div class="logo">WebX-Int.in</div>
+                <p>Innovating Digital Solutions for Your Business.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#demos">Demos</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact Us</h4>
+                <p>Email: <a href="mailto:info@webx-int.in">info@webx-int.in</a></p>
+                <p>Phone: +91 98765 43210</p>
+                <p>Address: [Your Company Address Here], [City, State, Pin]</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2025 WebX-Int.in. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+-----------------------------------------
+
+:root {
+    /* Color Palette */
+    --primary-blue: #007bff;
+    --dark-blue: #0056b3;
+    --accent-green: #28a745;
+    --dark-grey: #343a40;
+    --light-grey: #f8f9fa;
+    --white: #ffffff;
+    --text-dark: #212529;
+    --text-light: #6c757d;
+    --border-color: #dee2e6;
+    --shadow-light: rgba(0, 0, 0, 0.08);
+    --shadow-medium: rgba(0, 0, 0, 0.15);
+
+    /* Typography */
+    --font-heading: 'Montserrat', sans-serif;
+    --font-body: 'Roboto', sans-serif;
+    --base-font-size: 16px;
+
+    /* Spacing */
+    --spacing-xs: 0.5rem;   /* 8px */
+    --spacing-sm: 1rem;     /* 16px */
+    --spacing-md: 2rem;     /* 32px */
+    --spacing-lg: 4rem;     /* 64px */
+    --spacing-xl: 6rem;     /* 96px */
+}
+
+/* Global Styles */
+html {
+    scroll-behavior: smooth; /* Smooth scrolling for anchor links */
+}
+
+body {
+    margin: 0;
+    font-family: var(--font-body);
+    font-size: var(--base-font-size);
+    line-height: 1.6;
+    background-color: var(--light-grey);
+    color: var(--text-dark);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 var(--spacing-md);
+}
+
+h1, h2, h3, h4 {
+    font-family: var(--font-heading);
+    color: var(--text-dark);
+    margin-bottom: var(--spacing-sm);
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+h1 { font-size: 3.5rem; }
+h2 { font-size: 2.5rem; }
+h3 { font-size: 2rem; }
+h4 { font-size: 1.5rem; }
+
+p {
+    color: var(--text-light);
+    margin-bottom: var(--spacing-sm);
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-blue);
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--dark-blue);
+}
+
+/* Buttons */
+.btn {
+    display: inline-flex; /* Use flex for icon/arrow alignment */
+    align-items: center;
+    gap: var(--spacing-xs);
+    padding: var(--spacing-sm) var(--spacing-md);
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.primary-btn {
+    background-color: var(--primary-blue);
+    color: var(--white);
+    box-shadow: 0 4px 15px rgba(0, 123, 255, 0.25);
+}
+
+.primary-btn:hover {
+    background-color: var(--dark-blue);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 123, 255, 0.35);
+}
+
+.secondary-btn {
+    background-color: var(--accent-green);
+    color: var(--white);
+    box-shadow: 0 4px 15px rgba(40, 167, 69, 0.25);
+}
+
+.secondary-btn:hover {
+    background-color: darken(var(--accent-green), 10%); /* #218838 */
+    background-color: #218838;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(40, 167, 69, 0.35);
+}
+
+.btn .arrow {
+    margin-left: 0.25rem;
+}
+
+/* Header */
+.main-header {
+    background-color: var(--white);
+    padding: var(--spacing-sm) 0;
+    box-shadow: 0 2px 15px var(--shadow-light);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.main-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: var(--font-heading);
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--primary-blue);
+    text-transform: uppercase;
+}
+
+.main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: var(--spacing-md);
+}
+
+.main-nav a {
+    font-weight: 600;
+    color: var(--text-dark);
+    position: relative;
+    padding: var(--spacing-xs) 0;
+}
+
+.main-nav a:hover {
+    color: var(--primary-blue);
+}
+
+.main-nav a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3px;
+    background-color: var(--primary-blue);
+    left: 0;
+    bottom: -8px;
+    transition: width 0.3s ease;
+}
+
+.main-nav a:hover::after {
+    width: 100%;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to bottom right, #e0f7fa, #b2ebf2); /* Lighter, more vibrant gradient */
+    padding: var(--spacing-xl) var(--spacing-md);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 85vh; /* Taller for greater impact */
+    text-align: center;
+    overflow: hidden; /* Prevent content overflow during animations */
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1000px;
+    width: 100%;
+    animation: fadeInUp 1.5s ease forwards;
+}
+
+.hero-content .text {
+    max-width: 800px;
+    margin-bottom: var(--spacing-md);
+}
+
+.hero-content .text h1 {
+    font-size: 4.5rem; /* Larger, more impactful heading */
+    margin-bottom: var(--spacing-sm);
+    color: var(--dark-blue); /* Stronger color for heading */
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.05);
+}
+
+.hero-content .text p {
+    font-size: 1.3rem;
+    color: var(--text-light);
+    margin-bottom: var(--spacing-lg);
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-content .image img {
+    margin-top: var(--spacing-lg);
+    max-width: 90%; /* Adjusted for better visual balance */
+    height: auto;
+    border-radius: 20px; /* More rounded corners */
+    box-shadow: 0 15px 40px var(--shadow-medium); /* Stronger shadow */
+    animation: zoomIn 1.5s ease-out forwards;
+}
+
+/* Section Common Styling */
+section {
+    padding: var(--spacing-xl) 0;
+}
+
+.section-heading {
+    text-align: center;
+    margin-bottom: var(--spacing-lg);
+    font-size: 3rem;
+    color: var(--primary-blue);
+}
+
+/* Services Section */
+.services-section {
+    background-color: var(--white);
+    text-align: center;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: var(--spacing-md);
+    margin-top: var(--spacing-lg);
+}
+
+/* Service Card link styling */
+.service-card {
+    background-color: var(--light-grey);
+    padding: var(--spacing-md);
+    border-radius: 12px;
+    box-shadow: 0 5px 20px var(--shadow-light);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: left;
+    border: 1px solid var(--border-color);
+    display: block; /* Make the whole card a clickable block */
+    color: inherit; /* Inherit text color from parent for default */
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px var(--shadow-medium);
+    border-color: var(--primary-blue);
+}
+
+.service-card h3 {
+    color: var(--dark-blue);
+    margin-bottom: var(--spacing-xs);
+    font-size: 1.8rem;
+}
+
+.service-card p {
+    font-size: 1rem;
+    color: var(--text-light);
+}
+
+/* Demos Section */
+.demos-section {
+    background: linear-gradient(to bottom, var(--light-grey), var(--white));
+}
+
+.demo-category {
+    margin-bottom: var(--spacing-xl);
+    padding-bottom: var(--spacing-lg);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.demo-category:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.demo-category h3 {
+    text-align: center;
+    margin-bottom: var(--spacing-lg);
+    color: var(--accent-green);
+    font-size: 2.2rem;
+}
+
+.demo-content-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-md);
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+    background-color: var(--white);
+    padding: var(--spacing-md);
+    border-radius: 15px;
+    box-shadow: 0 8px 25px var(--shadow-light);
+    box-sizing: border-box; /* Ensure padding and border are included in element's total width and height */
+}
+
+.demo-content-row.reverse {
+    flex-direction: row-reverse;
+}
+
+.video-box, .demo-description {
+    flex: 1 1 45%; /* Allow shrinking, grow, and base width of 45% */
+    min-width: 280px; /* Minimum width for flex items, allows more shrinking than before */
+    box-sizing: border-box;
+}
+
+.video-box {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio for responsive iframe */
+    height: 0;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: var(--dark-grey); /* Placeholder for video loading */
+}
+
+.video-box iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.demo-description {
+    padding: var(--spacing-sm);
+    text-align: left;
+}
+
+.demo-description h4 {
+    font-size: 1.8rem;
+    color: var(--text-dark);
+    margin-bottom: var(--spacing-xs);
+}
+
+.demo-description p {
+    font-size: 1rem;
+    color: var(--text-light);
+    margin-bottom: var(--spacing-md);
+}
+
+/* Demo Images Grid (NEW) */
+.demo-images-grid {
+    display: grid; /* Changed to grid for better control over columns for desktop */
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* 3-4 images, small on mobile */
+    gap: var(--spacing-sm); /* Smaller gap for images */
+    margin-top: var(--spacing-md);
+    padding: var(--spacing-sm);
+    background-color: var(--white);
+    border-radius: 12px;
+    box-shadow: 0 4px 15px var(--shadow-light);
+    box-sizing: border-box;
+}
+
+.demo-images-grid img {
+    width: 100%;
+    height: 120px; /* Fixed height for consistency */
+    object-fit: cover; /* Crop images to fit */
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.demo-images-grid img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px var(--shadow-medium);
+}
+
+/* Footer */
+.main-footer {
+    background-color: var(--dark-grey);
+    color: var(--white);
+    padding: var(--spacing-lg) 0 var(--spacing-md);
+    font-size: 0.9rem;
+}
+
+.main-footer .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: var(--spacing-md);
+}
+
+.footer-col {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: var(--spacing-md);
+}
+
+.footer-col .logo {
+    color: var(--white);
+    margin-bottom: var(--spacing-xs);
+}
+
+.footer-col h4 {
+    color: var(--white);
+    margin-bottom: var(--spacing-sm);
+    font-size: 1.2rem;
+}
+
+.footer-col p, .footer-col ul {
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-col ul li {
+    margin-bottom: var(--spacing-xs);
+}
+
+.footer-col a {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-col a:hover {
+    color: var(--primary-blue);
+}
+
+.copyright {
+    text-align: center;
+    margin-top: var(--spacing-md);
+    padding-top: var(--spacing-sm);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.copyright p {
+    color: rgba(255, 255, 255, 0.7);
+    margin: 0;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+    0% { opacity: 0; transform: translateY(40px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes zoomIn {
+    0% { opacity: 0; transform: scale(0.9); }
+    100% { opacity: 1; transform: scale(1); }
+}
+
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+    h1 { font-size: 3.5rem; }
+    h2 { font-size: 2.2rem; }
+    h3 { font-size: 1.8rem; }
+    h4 { font-size: 1.3rem; }
+
+    .main-nav ul {
+        gap: var(--spacing-sm);
+    }
+    .hero {
+        padding: var(--spacing-lg) var(--spacing-md);
+        min-height: auto;
+    }
+    .hero-content .text h1 {
+        font-size: 3rem;
+    }
+    .hero-content .text p {
+        font-size: 1.1rem;
+    }
+    .services-grid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+    /* Demo section responsiveness fix */
+    .demo-content-row {
+        flex-direction: column; /* Stack video and description on medium screens */
+        text-align: center;
+        padding: var(--spacing-sm); /* Adjusted padding */
+    }
+    .demo-content-row.reverse {
+        flex-direction: column; /* Keep stacking on reverse for consistency */
+    }
+    .demo-description {
+        text-align: center;
+        padding: 0; /* Remove extra padding if parent has it */
+    }
+    .video-box, .demo-description {
+        flex: 1 1 100%; /* Take full width when stacked */
+        min-width: unset; /* Remove min-width when stacked */
+    }
+}
+
+@media (max-width: 768px) {
+    .main-header .container {
+        flex-direction: column;
+        gap: var(--spacing-sm);
+    }
+    .main-nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: var(--spacing-sm);
+    }
+    h1 { font-size: 2.8rem; }
+    h2 { font-size: 1.8rem; }
+    h3 { font-size: 1.5rem; }
+    .hero-content .text h1 {
+        font-size: 2.5rem;
+    }
+    .hero-content .text p {
+        font-size: 1rem;
+    }
+    .btn {
+        padding: 0.6rem 1.2rem;
+        font-size: 1rem;
+    }
+    .logo {
+        font-size: 1.6rem;
+    }
+    .main-nav a {
+        font-size: 0.9rem;
+    }
+    .section-heading {
+        font-size: 2.2rem;
+    }
+    .footer-col {
+        min-width: 150px;
+    }
+    /* Demo section responsiveness fix - refined for smaller screens */
+    .demo-content-row {
+        padding: var(--spacing-sm);
+    }
+    .demo-images-grid {
+        display: flex; /* Change to flex for horizontal scrolling */
+        overflow-x: auto; /* Enable horizontal scrolling */
+        -webkit-overflow-scrolling: touch; /* For smoother scrolling on iOS */
+        scroll-snap-type: x mandatory; /* Optional: for snapping to images */
+        padding-left: var(--spacing-md); /* Add padding to the left of the first image */
+        padding-right: var(--spacing-md); /* Add padding to the right of the last image */
+        padding-bottom: var(--spacing-sm); /* Add some padding for scrollbar */
+        box-sizing: border-box; /* Ensure padding is included in width */
+    }
+
+    .demo-images-grid::-webkit-scrollbar {
+        height: 8px; /* Height of the scrollbar */
+    }
+
+    .demo-images-grid::-webkit-scrollbar-thumb {
+        background-color: var(--primary-blue);
+        border-radius: 10px;
+    }
+
+    .demo-images-grid::-webkit-scrollbar-track {
+        background-color: var(--light-grey);
+    }
+
+    .demo-images-grid img {
+        flex-shrink: 0; /* Prevent images from shrinking */
+        width: 180px; /* Fixed width for horizontal scrolling */
+        height: 120px; /* Consistent height */
+        scroll-snap-align: start; /* Optional: Snap to the start of each image */
+        margin-right: var(--spacing-sm); /* Space between images */
+        transition: transform 0.2s ease-out; /* Smooth transition for pop-up */
+        touch-action: manipulation; /* Prevent default browser behaviors on touch */
+        transform-origin: center center; /* Ensure scaling from center */
+    }
+
+    .demo-images-grid img:last-child {
+        margin-right: 0; /* No margin on the last image, padding on parent handles right space */
+    }
+
+    /* Styling for image pop-up on long press (managed by JS) */
+    .demo-images-grid img.is-popped-up {
+        transform: scale(1.15); /* Enlarge image */
+        box-shadow: 0 8px 20px var(--shadow-medium); /* Enhanced shadow */
+        z-index: 10; /* Bring pressed image to front */
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 0 var(--spacing-sm);
+    }
+    h1 { font-size: 2.2rem; }
+    h2 { font-size: 1.5rem; }
+    h3 { font-size: 1.3rem; }
+    h4 { font-size: 1.1rem; }
+    .hero-content .text h1 {
+        font-size: 2rem;
+    }
+    .hero-content .text p {
+        font-size: 0.9rem;
+    }
+    .logo {
+        font-size: 1.4rem;
+    }
+    .main-nav ul {
+        gap: var(--spacing-xs);
+    }
+    .main-nav a {
+        font-size: 0.8rem;
+    }
+    .btn {
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+    }
+    .section-heading {
+        font-size: 1.8rem;
+    }
+    .footer-col {
+        flex-basis: 100%; /* Stack footer columns on very small screens */
+        min-width: auto;
+        text-align: center;
+    }
+    .footer-col ul {
+        text-align: center;
+    }
+    /* Demo image grid on smallest screens */
+    .demo-images-grid {
+        padding-left: var(--spacing-sm); /* Adjusted padding for smallest screens */
+        padding-right: var(--spacing-sm); /* Adjusted padding for smallest screens */
+    }
+    .demo-images-grid img {
+        width: 150px; /* Slightly smaller fixed width for very small phones */
+        height: 100px;
+    }
+}
+
+-----------------------------------------
+document.addEventListener('DOMContentLoaded', () => {
+    console.log('Website loaded with animation!');
+});
