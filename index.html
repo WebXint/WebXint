@@ -187,14 +187,40 @@
     <div class="contact-container">
       <div class="contact-form">
         <h3>Send Us a Message</h3>
-        <form action="#">
+        <form id="web3form" action="https://api.web3forms.com/submit" method="POST">
+
+          <!-- These inputs have no name by default -->
           <input type="text" placeholder="Full Name *" required>
           <input type="email" placeholder="Email Address *" required>
           <input type="text" placeholder="Company Name">
-          <textarea rows="5" placeholder="Tell us about your project requirements..."></textarea>
+          <textarea rows="5" placeholder="Tell us about your project requirements..." required></textarea>
           <button type="submit" class="btn">Send Message <i class='bx bxs-paper-plane'></i></button>
+
+          <!-- Required Hidden Fields for Web3Forms -->
+          <input type="hidden" name="access_key" value="3ae56e30-9e59-42de-a5d1-2c65d8603a21">
+          <input type="text" name="botcheck" style="display: none;">
         </form>
       </div>
+
+      <script>
+        document.getElementById("web3form").addEventListener("submit", function (e) {
+          const form = e.target;
+
+          // Assign names right before submitting
+          const fields = form.querySelectorAll("input, textarea");
+
+          const nameField = fields[0];
+          const emailField = fields[1];
+          const companyField = fields[2];
+          const messageField = fields[3];
+
+          nameField.setAttribute("name", "name");
+          emailField.setAttribute("name", "email");
+          companyField.setAttribute("name", "company");
+          messageField.setAttribute("name", "message");
+        });
+      </script>
+
       <div class="contact-info">
         <h3>Let's Start a Conversation</h3>
         <p>We're here to help you transform your ideas into exceptional digital experiences. Whether you need a new
