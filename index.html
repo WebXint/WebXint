@@ -15,21 +15,23 @@
   <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
   <link rel="manifest" href="./favicon/site.webmanifest">
 
- <!-- Allow search engines to index -->
-    <meta name="robots" content="index, follow" />
+  <!-- Allow search engines to index -->
+  <meta name="robots" content="index, follow" />
 
-    <!-- Open Graph for social media (Facebook, LinkedIn etc.) -->
-    <meta property="og:title" content="WebX-Int.In | Complete Digital Innovation Partner" />
-    <meta property="og:description" content="We provide web, AI/ML, mobile, ERP, and game dev solutions. Let’s build your digital future together." />
-    <meta property="og:url" content="https://webx-int.in" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://webx-int.in/your-og-image.jpg" />
+  <!-- Open Graph for social media (Facebook, LinkedIn etc.) -->
+  <meta property="og:title" content="WebX-Int.In | Complete Digital Innovation Partner" />
+  <meta property="og:description"
+    content="We provide web, AI/ML, mobile, ERP, and game dev solutions. Let’s build your digital future together." />
+  <meta property="og:url" content="https://webx-int.in" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://webx-int.in/your-og-image.jpg" />
 
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="WebX-Int.In | Complete Digital Innovation Partner" />
-    <meta name="twitter:description" content="Expert development in Web, AI/ML, ERP, and mobile apps. Start your project with WebX-Int today." />
-    <meta name="twitter:image" content="https://webx-int.in/your-twitter-image.jpg" />
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="WebX-Int.In | Complete Digital Innovation Partner" />
+  <meta name="twitter:description"
+    content="Expert development in Web, AI/ML, ERP, and mobile apps. Start your project with WebX-Int today." />
+  <meta name="twitter:image" content="https://webx-int.in/your-twitter-image.jpg" />
 </head>
 
 <body>
@@ -41,12 +43,48 @@
       <a href="#about">About</a>
       <a href="#services">Services</a>
       <a href="#contact">Contact</a>
-      <a href="./Website Demo For Client/index.html">Theme</a>
+
+      <!-- DROPDOWN MENU START -->
+      <div style="position: relative; display: inline-block;">
+        <a onclick="toggleDropdown()"
+          style="cursor: pointer; color: var(--dark-color); font-size: 1.1rem; margin-left: 2.5rem; font-weight: 500; text-decoration: none;">
+          More ▾
+        </a>
+        <div id="dropdownContent"
+          style="display: none; position: absolute; background: white; border: 1px solid #eee; min-width: 160px; box-shadow: 0px 8px 16px rgba(0,0,0,0.1); z-index: 999;">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScaIr5sAMzOiMcAiOB75xtxXvaa2t2tOPKv-0kDBhP6ou7e-Q/viewform?usp=header"
+            style="display: block; padding: 10px 16px; color: var(--dark-color); text-decoration: none;">Career</a>
+          <a href="./Website Demo For Client/index.html"
+            style="display: block; padding: 10px 16px; color: var(--dark-color); text-decoration: none;">Theme</a>
+        </div>
+      </div>
+      <!-- DROPDOWN MENU END -->
+    </nav>
+    <div class="menu-icon">
+      <i class='bx bx-menu' id="menu-btn"></i>
+    </div>
     </nav>
     <div class="menu-icon">
       <i class='bx bx-menu' id="menu-btn"></i>
     </div>
   </header>
+  <!-- JS for toggling dropdown -->
+  <script>
+    function toggleDropdown() {
+      var menu = document.getElementById("dropdownContent");
+      menu.style.display = menu.style.display === "block" ? "none" : "block";
+    }
+
+    window.addEventListener("click", function (e) {
+      if (!e.target.matches(".navbar a")) {
+        var dropdown = document.getElementById("dropdownContent");
+        if (dropdown && dropdown.style.display === "block") {
+          dropdown.style.display = "none";
+        }
+      }
+    });
+  </script>
+
 
   <section class="home" id="home">
     <div class="home-content">
